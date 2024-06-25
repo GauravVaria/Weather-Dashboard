@@ -43,6 +43,10 @@ h1 {
     object-fit: contain;
 }
 
+.icon {
+    padding: 3px 3px 3px 3px;
+}
+
 .icon img {
     height: 30px;
     width: 30px;
@@ -51,10 +55,22 @@ h1 {
 
 .input {
     width: 350px;
-    height: 30px;
+    height: 34px;
 }
 
 .input input {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    text-align: center;
+}
+
+.main {
+    background-color: #2e3540;
+    border-radius: 5px;
+    color: white;
 }
