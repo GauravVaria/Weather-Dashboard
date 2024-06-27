@@ -58,6 +58,10 @@ h1 {
     height: 34px;
 }
 
+input:focus{
+    outline:none;
+}
+
 .input input {
     height: 100%;
     width: 100%;
@@ -73,4 +77,10 @@ button {
     background-color: #2e3540;
     border-radius: 5px;
     color: white;
+}
+
+.card {
+    background-color: #252230;
+    border-radius: 5px;
+    
 }
